@@ -37,4 +37,25 @@ const myAll = {
   ...namePo,
   ...ageLo,
 };
-console.log(myAll);
+// console.log(myAll);
+
+// Next level ES-6
+
+// Template string
+
+const nextLevel = (name) => {
+  const newSms = "Hello my name is" + name;
+  const newSms1 = `Hello my name is ${name}`;
+  console.log(newSms1);
+};
+export const nextLeve2 = (name) => {
+  const newSms = "Hello my name is" + name;
+  const newSms1 = `Hello my other name is ${name}`;
+  console.log(newSms1);
+};
+
+// nextLevel("Hamim");
+
+// Export System
+
+export default nextLevel;
