@@ -14,6 +14,7 @@ const myAddress = {
   road: "Sholok Road",
   area: "Jugihati",
   location: "Barishal",
+
 };
 
 const { house, block, road, area, location } = myAddress;
@@ -22,4 +23,8 @@ const { house, block, road, area, location } = myAddress;
 // console.log(block);
 // console.log(road);
 // console.log(area);
-// console.log(location);
+
+// Optional Chaining 
+
+console.log(location.visa?.hi);
+
